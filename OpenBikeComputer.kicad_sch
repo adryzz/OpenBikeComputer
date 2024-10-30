@@ -1,0 +1,827 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "110ea5a2-03d6-426d-b79f-fcb4ea6cee9d")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 106.68 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713946b1-3efb-45ed-adc6-558597f6175d")
+	)
+	(junction
+		(at 109.22 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "915ff076-959a-4761-9a7a-b36763ce8ad1")
+	)
+	(junction
+		(at 101.6 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "943b6ff6-814a-43ee-94a2-cb5a4188a369")
+	)
+	(junction
+		(at 99.06 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09fb2b4-eca7-4dad-9892-19e0e00019ff")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050b2de8-834a-47fb-b6d8-566f9b4d27fb")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05dd1a84-3bb5-4d89-a3fe-d386094e0541")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1724182e-b503-40b0-ad06-fe075f5e24aa")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 137.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189c20df-25c2-4394-8033-86bed5be7974")
+	)
+	(wire
+		(pts
+			(xy 83.82 92.71) (xy 83.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a143437-0f72-47c0-b587-cfb3d14016e5")
+	)
+	(wire
+		(pts
+			(xy 109.22 46.99) (xy 111.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363b65a1-558a-4e5d-9601-fb311399336d")
+	)
+	(wire
+		(pts
+			(xy 111.76 40.64) (xy 99.06 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8bf198-87ef-4ffa-95df-bea36a1f0075")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca6b519-6c1d-4dfb-9d86-d610bcbc455d")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 111.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674e47a4-6a59-473c-9ce9-8cf01b476252")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687850c1-8851-41bf-aa42-c39a18b45a53")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c966296-b4b7-453f-aa56-9aa54f185bb6")
+	)
+	(wire
+		(pts
+			(xy 96.52 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7783fcd4-d50a-4fc9-9fa3-591db802b4da")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 111.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcc1792-72ee-4d5a-909e-d045ad4fe6ac")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a97457-b287-4cf2-9e36-511e000b3b5e")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ca6629-93f6-4ec3-bbbf-31ce17d86da8")
+	)
+	(wire
+		(pts
+			(xy 96.52 74.93) (xy 99.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1502237-aca3-4cc4-8895-311e16e9c8dd")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a657c27f-b739-4ed9-8016-c973f95ccf1b")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb151eb-c7fd-4e2e-9916-878425be1b7a")
+	)
+	(wire
+		(pts
+			(xy 106.68 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc467ff8-6f5c-4124-af04-64005cf9ab3d")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 109.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccadf76d-0746-4f05-b31b-37eae530493b")
+	)
+	(wire
+		(pts
+			(xy 96.52 72.39) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f59ea5-67d2-4041-9553-2cc165184879")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d70d5306-e887-4b7f-8919-f0bddcd186f5")
+	)
+	(wire
+		(pts
+			(xy 96.52 90.17) (xy 104.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95967d4-831f-4d83-8817-e0712d20ea7a")
+	)
+	(wire
+		(pts
+			(xy 104.14 105.41) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddceb6dd-ad41-406c-b042-e701de70ea9f")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05955ea-6655-432f-8575-f2cdf94d92b8")
+	)
+	(wire
+		(pts
+			(xy 96.52 80.01) (xy 111.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa94d184-9bbb-46ac-8169-17bc089755c0")
+	)
+	(wire
+		(pts
+			(xy 96.52 77.47) (xy 111.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd024d47-63b1-45fe-b545-57d74f6bcb5f")
+	)
+	(wire
+		(pts
+			(xy 104.14 90.17) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed3ab48-2ddb-4c6e-beb3-b538896d8282")
+	)
+	(sheet
+		(at 59.69 59.69)
+		(size 36.83 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37638529-c791-4545-86be-d41ede14aac5")
+		(property "Sheetname" "Power"
+			(at 59.69 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 59.69 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VOUT2" passive
+			(at 96.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cfd4bc67-3bc9-4e0f-ad9b-c3f1eb3d6d19")
+		)
+		(pin "VOUT1" passive
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f94b76f4-3464-49ef-8791-1fb211fd83bd")
+		)
+		(pin "NTC" passive
+			(at 83.82 92.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b3e75d6-1f65-463f-84f7-67926c123902")
+		)
+		(pin "D+" bidirectional
+			(at 96.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a756f888-43d5-45bf-94e8-306e04de9491")
+		)
+		(pin "D-" bidirectional
+			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb6f7373-2ebe-43b6-8bef-0ed432f712bb")
+		)
+		(pin "INT" output
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06f00f05-c4a4-4c41-ad24-bbe48504befb")
+		)
+		(pin "RESET" input
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c36add53-a1a0-44d3-9560-fec6802fe426")
+		)
+		(pin "SDA" bidirectional
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bca4cca1-a814-45ee-90b7-ea27f2593098")
+		)
+		(pin "SCL" input
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45ddf0f1-0a6c-4927-93ad-4a2d7f5fed6e")
+		)
+		(pin "VBAT" passive
+			(at 81.28 92.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4de7bbc5-1bf3-41fa-9039-7aa370daa1f5")
+		)
+		(pin "VUSBOUT" passive
+			(at 96.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5eb7d779-95d2-402e-adea-1eb207131185")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 99.06)
+		(size 36.83 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67feebfd-a6ea-41ab-b461-383184077ed3")
+		(property "Sheetname" "Display"
+			(at 111.76 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 111.76 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1.8V" passive
+			(at 111.76 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8faffd0b-2d71-45eb-9e6e-0e4704ec95d5")
+		)
+		(pin "3.0V" passive
+			(at 111.76 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69a48f04-aade-4800-a95e-92e115814605")
+		)
+		(pin "SCLK" input
+			(at 138.43 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5aab725f-2ca5-471f-9da7-e88690214173")
+		)
+		(pin "MOSI" input
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76da57c3-4f28-443d-bf40-fa4e8c69eb51")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 22.86)
+		(size 36.83 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7aa00029-f5f2-4535-b444-7e5f9da482b1")
+		(property "Sheetname" "Sensors"
+			(at 111.76 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 111.76 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1.8V" passive
+			(at 111.76 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "386101e2-a4a0-4bbc-87c0-41e95fd58a80")
+		)
+		(pin "MOTION_INT" output
+			(at 137.16 53.34 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f40466ae-8b5c-4ac2-b68c-3abfffc46792")
+		)
+		(pin "SDA" bidirectional
+			(at 111.76 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42a46138-d031-4343-bf4b-d59910884576")
+		)
+		(pin "SCL" input
+			(at 111.76 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c79ccc4f-a24b-4d87-8687-93fdbf8c1a85")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 59.69)
+		(size 36.83 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ab31578-d5d6-4677-b849-7ef5be6f3fc0")
+		(property "Sheetname" "MCU"
+			(at 111.76 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 111.76 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 111.76 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86872923-5732-4175-94ec-86851448117b")
+		)
+		(pin "D+" bidirectional
+			(at 111.76 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fcc3d29-1c7e-416e-84d9-9a78900b1855")
+		)
+		(pin "VBUS" passive
+			(at 111.76 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3bfeb9b0-cb7b-40bc-9d8e-0ecf46c856fc")
+		)
+		(pin "1.8V" passive
+			(at 111.76 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c247b3d-eb11-45c7-9629-973f907d8c9f")
+		)
+		(pin "SCLK" output
+			(at 138.43 92.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab29ac20-9931-48fe-996b-ccbf8be67efd")
+		)
+		(pin "MOSI" output
+			(at 140.97 92.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6aa6bc21-057f-4792-b0b2-b32d7ec59e7a")
+		)
+		(pin "RESET" output
+			(at 111.76 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68b883d5-5d09-419d-bbe6-6c13c7c97abe")
+		)
+		(pin "INT" input
+			(at 111.76 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3cdbf9be-9af9-458b-93c4-acbb83367229")
+		)
+		(pin "SDA" bidirectional
+			(at 111.76 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52463afe-0506-4b7e-a2bf-69c3b895da0a")
+		)
+		(pin "SCL" bidirectional
+			(at 111.76 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66bbfb9d-a372-4346-a43c-92da9e77cfef")
+		)
+		(pin "MOTION_INT" input
+			(at 137.16 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be7f16ba-3e1e-430e-b4a0-83ea7b1de586")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 99.06)
+		(size 36.83 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc3e7033-8db9-4a67-89af-efd72c91eddd")
+		(property "Sheetname" "Battery"
+			(at 59.69 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 59.69 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBATOUT" passive
+			(at 81.28 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad52eef3-e4cf-47b5-bdc2-15271af356bb")
+		)
+		(pin "NTC" passive
+			(at 83.82 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28efdd4a-0092-4ac5-99bf-8eb0c571b676")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
