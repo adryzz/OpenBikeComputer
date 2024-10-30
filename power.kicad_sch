@@ -5887,7 +5887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:L0806"
 			(at 151.13 119.38 0)
 			(effects
 				(font
@@ -5906,6 +5906,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "MLP2016H2R2MT0S1"
 			(at 151.13 119.38 0)
 			(effects
 				(font
@@ -6728,7 +6737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:L0806"
 			(at 151.13 106.68 0)
 			(effects
 				(font
@@ -6747,6 +6756,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "MLP2016H2R2MT0S1"
 			(at 151.13 106.68 0)
 			(effects
 				(font

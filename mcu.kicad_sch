@@ -9388,7 +9388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CRYSTAL-SMD_L3.2-W1.5-1"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -9408,6 +9408,15 @@
 		)
 		(property "Description" "Two pin crystal, small symbol"
 			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NDK NX3215SA-32.768K-STD-MUA-9 "
+			(at 73.66 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
