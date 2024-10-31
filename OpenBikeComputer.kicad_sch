@@ -17,18 +17,6 @@
 		(color 0 0 0 0)
 		(uuid "915ff076-959a-4761-9a7a-b36763ce8ad1")
 	)
-	(junction
-		(at 101.6 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "943b6ff6-814a-43ee-94a2-cb5a4188a369")
-	)
-	(junction
-		(at 99.06 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b09fb2b4-eca7-4dad-9892-19e0e00019ff")
-	)
 	(wire
 		(pts
 			(xy 106.68 101.6) (xy 106.68 66.04)
@@ -91,16 +79,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 40.64) (xy 99.06 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8bf198-87ef-4ffa-95df-bea36a1f0075")
-	)
-	(wire
-		(pts
 			(xy 109.22 66.04) (xy 111.76 66.04)
 		)
 		(stroke
@@ -111,23 +89,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 74.93) (xy 111.76 74.93)
+			(xy 96.52 74.93) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "674e47a4-6a59-473c-9ce9-8cf01b476252")
-	)
-	(wire
-		(pts
-			(xy 99.06 40.64) (xy 99.06 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687850c1-8851-41bf-aa42-c39a18b45a53")
 	)
 	(wire
 		(pts
@@ -161,7 +129,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 111.76 72.39)
+			(xy 96.52 72.39) (xy 111.76 72.39)
 		)
 		(stroke
 			(width 0)
@@ -171,33 +139,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 101.6 72.39)
+			(xy 139.7 53.34) (xy 139.7 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89ca6629-93f6-4ec3-bbbf-31ce17d86da8")
+		(uuid "982c3a94-bae9-4047-a8ac-0efc64d5e50f")
 	)
 	(wire
 		(pts
-			(xy 96.52 74.93) (xy 99.06 74.93)
+			(xy 142.24 53.34) (xy 142.24 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1502237-aca3-4cc4-8895-311e16e9c8dd")
-	)
-	(wire
-		(pts
-			(xy 111.76 43.18) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a657c27f-b739-4ed9-8016-c973f95ccf1b")
+		(uuid "9be88f9b-8b37-4b56-bf1d-af8712b4695b")
 	)
 	(wire
 		(pts
@@ -228,16 +186,6 @@
 			(type default)
 		)
 		(uuid "ccadf76d-0746-4f05-b31b-37eae530493b")
-	)
-	(wire
-		(pts
-			(xy 96.52 72.39) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f59ea5-67d2-4041-9553-2cc165184879")
 	)
 	(wire
 		(pts
@@ -586,24 +534,24 @@
 			(uuid "f40466ae-8b5c-4ac2-b68c-3abfffc46792")
 		)
 		(pin "SDA" bidirectional
-			(at 111.76 43.18 180)
+			(at 139.7 53.34 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42a46138-d031-4343-bf4b-d59910884576")
+			(uuid "8cb3cf78-4d23-476f-a6c2-ffe30966b2e2")
 		)
 		(pin "SCL" input
-			(at 111.76 40.64 180)
+			(at 142.24 53.34 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c79ccc4f-a24b-4d87-8687-93fdbf8c1a85")
+			(uuid "84c40ea3-889d-4a94-a5c1-c1bfeac8f003")
 		)
 		(instances
 			(project "OpenBikeComputer"
@@ -723,26 +671,6 @@
 			)
 			(uuid "3cdbf9be-9af9-458b-93c4-acbb83367229")
 		)
-		(pin "SDA" bidirectional
-			(at 111.76 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "52463afe-0506-4b7e-a2bf-69c3b895da0a")
-		)
-		(pin "SCL" bidirectional
-			(at 111.76 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "66bbfb9d-a372-4346-a43c-92da9e77cfef")
-		)
 		(pin "MOTION_INT" input
 			(at 137.16 59.69 90)
 			(effects
@@ -752,6 +680,46 @@
 				(justify right)
 			)
 			(uuid "be7f16ba-3e1e-430e-b4a0-83ea7b1de586")
+		)
+		(pin "SCL1" output
+			(at 111.76 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e614b82-d7cf-4a5d-9a23-01c40ec59076")
+		)
+		(pin "SDA1" bidirectional
+			(at 111.76 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88881e9f-499f-4288-97e4-7ae69a61c648")
+		)
+		(pin "SCL2" output
+			(at 142.24 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6847987-a2ec-43cf-96a2-13a665afd6cc")
+		)
+		(pin "SDA2" bidirectional
+			(at 139.7 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "baad51d4-daf7-47a9-85e1-5a280a2b6e6a")
 		)
 		(instances
 			(project "OpenBikeComputer"
