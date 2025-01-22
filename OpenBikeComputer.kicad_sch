@@ -119,16 +119,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 86.36) (xy 111.76 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fcc1792-72ee-4d5a-909e-d045ad4fe6ac")
-	)
-	(wire
-		(pts
 			(xy 96.52 72.39) (xy 111.76 72.39)
 		)
 		(stroke
@@ -156,16 +146,6 @@
 			(type default)
 		)
 		(uuid "9be88f9b-8b37-4b56-bf1d-af8712b4695b")
-	)
-	(wire
-		(pts
-			(xy 96.52 83.82) (xy 111.76 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb151eb-c7fd-4e2e-9916-878425be1b7a")
 	)
 	(wire
 		(pts
@@ -316,26 +296,6 @@
 				(justify left)
 			)
 			(uuid "8b3e75d6-1f65-463f-84f7-67926c123902")
-		)
-		(pin "D+" bidirectional
-			(at 96.52 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a756f888-43d5-45bf-94e8-306e04de9491")
-		)
-		(pin "D-" bidirectional
-			(at 96.52 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bb6f7373-2ebe-43b6-8bef-0ed432f712bb")
 		)
 		(pin "INT" output
 			(at 96.52 80.01 0)
@@ -590,26 +550,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "D-" bidirectional
-			(at 111.76 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "86872923-5732-4175-94ec-86851448117b")
-		)
-		(pin "D+" bidirectional
-			(at 111.76 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6fcc3d29-1c7e-416e-84d9-9a78900b1855")
 		)
 		(pin "VBUS" passive
 			(at 111.76 63.5 180)
