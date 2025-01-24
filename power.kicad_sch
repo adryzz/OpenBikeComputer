@@ -3938,7 +3938,6 @@
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 74.93 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3950,7 +3949,6 @@
 	(hierarchical_label "NTC"
 		(shape passive)
 		(at 153.67 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3962,7 +3960,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 74.93 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +3971,6 @@
 	(hierarchical_label "VBAT"
 		(shape passive)
 		(at 107.95 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3986,7 +3982,6 @@
 	(hierarchical_label "INT"
 		(shape output)
 		(at 74.93 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3998,7 +3993,6 @@
 	(hierarchical_label "VOUT2"
 		(shape passive)
 		(at 175.26 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,7 +4004,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 74.93 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4022,7 +4015,6 @@
 	(hierarchical_label "VOUT1"
 		(shape passive)
 		(at 175.26 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4034,7 +4026,6 @@
 	(hierarchical_label "VUSBOUT"
 		(shape passive)
 		(at 149.86 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

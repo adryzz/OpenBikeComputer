@@ -1746,7 +1746,6 @@
 	(hierarchical_label "1.8V"
 		(shape passive)
 		(at 88.9 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1758,7 +1757,6 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 83.82 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1770,7 +1768,6 @@
 	(hierarchical_label "SCLK"
 		(shape input)
 		(at 83.82 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1782,7 +1779,6 @@
 	(hierarchical_label "3.0V"
 		(shape passive)
 		(at 59.69 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

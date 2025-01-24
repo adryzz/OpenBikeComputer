@@ -1675,6 +1675,388 @@
 				)
 			)
 		)
+		(symbol "Device:RFShield_TwoPieces"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RFShield_TwoPieces"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two-piece EMI RF shielding cabinet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF EMI shielding cabinet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RFShield_TwoPieces_0_1"
+				(polyline
+					(pts
+						(xy -15.24 -5.08) (xy -15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -1.27) (xy -15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 2.54) (xy -15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy -8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy -8.89 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 7.62) (xy 6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.27) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13.97 -7.62) (xy -15.24 -7.62) (xy -15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -7.62) (xy 15.24 -7.62) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 6.35) (xy 15.24 7.62) (xy 13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 5.08) (xy -17.78 11.43) (xy 17.78 11.43) (xy 17.78 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RFShield_TwoPieces_1_1"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3728,7 +4110,7 @@
 		(at 270.51 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14fd4471-0f13-446c-b5ac-2ba54cbb5076")
+		(uuid "13c5d423-9a21-483a-baf4-1302a66ae7e1")
 	)
 	(junction
 		(at 144.78 38.1)
@@ -4136,16 +4518,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 100.33) (xy 274.32 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6f96a3-9f39-42c2-a36c-a0ce154eafb5")
-	)
-	(wire
-		(pts
 			(xy 232.41 52.07) (xy 243.84 52.07)
 		)
 		(stroke
@@ -4286,6 +4658,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 100.33) (xy 242.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7c5a24-12b4-422f-89ed-09c3cdd95ea5")
+	)
+	(wire
+		(pts
 			(xy 69.85 170.18) (xy 78.74 170.18)
 		)
 		(stroke
@@ -4323,6 +4705,16 @@
 			(type default)
 		)
 		(uuid "7d689159-df6e-416c-a814-e3affb5174fe")
+	)
+	(wire
+		(pts
+			(xy 270.51 100.33) (xy 276.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da1ba21-feec-4f98-9b14-a775826ace40")
 	)
 	(wire
 		(pts
@@ -4373,16 +4765,6 @@
 			(type default)
 		)
 		(uuid "985ac396-5ff9-47e4-a1fd-fbd85d748a24")
-	)
-	(wire
-		(pts
-			(xy 232.41 100.33) (xy 242.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a2231ee-1f68-458a-a7fa-51697bf2faa3")
 	)
 	(wire
 		(pts
@@ -4836,9 +5218,9 @@
 			)
 		)
 	)
-	(global_label "SENSE2B"
+	(global_label "SENSE1B"
 		(shape output)
-		(at 38.1 73.66 0)
+		(at 39.37 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4846,9 +5228,9 @@
 			)
 			(justify left)
 		)
-		(uuid "06f1e5a1-9e4a-48c2-8898-701ed9b428e8")
+		(uuid "07a54eb6-a11f-4a54-8ba9-c41c99959814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.6122 73.66 0)
+			(at 50.8822 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,6 +5275,50 @@
 		(uuid "191f17eb-673f-4d41-969d-f970dbbf17b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.0528 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSE2B"
+		(shape output)
+		(at 39.37 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "217f857f-8800-439c-b740-9201d1e904be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8822 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSE2A"
+		(shape output)
+		(at 39.37 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "257fcdc9-de45-4dd9-a91d-7923290adb0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.7008 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5418,7 @@
 	)
 	(global_label "SENSE1A"
 		(shape output)
-		(at 38.1 27.94 0)
+		(at 39.37 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5002,7 +5428,7 @@
 		)
 		(uuid "35675d18-302e-4984-a08c-eebb040ba83e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4308 27.94 0)
+			(at 50.7008 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,28 +5456,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SENSE2A"
-		(shape output)
-		(at 38.1 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39a8c038-39ac-4f23-a5b4-af49805e7b9e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4308 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5096,6 +5500,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DETECT2"
+		(shape output)
+		(at 39.37 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52f624b0-0d20-41cb-8d23-cbe8c7e99c0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.3379 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5206,28 +5632,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DETECT1"
-		(shape output)
-		(at 38.1 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "669ec95a-2c04-4d8e-9d6d-d2fb0e4bda87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.0679 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5562,28 +5966,6 @@
 			)
 		)
 	)
-	(global_label "SENSE1B"
-		(shape output)
-		(at 38.1 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d32922e9-bb80-4f10-ac9f-02ba31658820")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.6122 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUT3"
 		(shape output)
 		(at 34.29 127 0)
@@ -5606,9 +5988,9 @@
 			)
 		)
 	)
-	(global_label "DETECT2"
+	(global_label "DETECT1"
 		(shape output)
-		(at 38.1 68.58 0)
+		(at 39.37 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5616,9 +5998,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e3347490-ca44-4fff-b004-a9105561805a")
+		(uuid "d856a3fb-22f1-493a-979e-e13fc0172ef9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.0679 68.58 0)
+			(at 50.3379 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +6035,6 @@
 	(hierarchical_label "SCL1"
 		(shape output)
 		(at 124.46 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5664,20 +6045,18 @@
 	)
 	(hierarchical_label "1.8V"
 		(shape passive)
-		(at 38.1 33.02 0)
-		(fields_autoplaced yes)
+		(at 39.37 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "16cbb8c6-d5b7-4434-8c36-6df9d368d2a2")
+		(uuid "1dd2fe40-4095-4a72-981f-1857634253c4")
 	)
 	(hierarchical_label "SCL2"
 		(shape output)
 		(at 124.46 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5689,7 +6068,6 @@
 	(hierarchical_label "SDA1"
 		(shape bidirectional)
 		(at 124.46 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5701,7 +6079,6 @@
 	(hierarchical_label "1.8V"
 		(shape passive)
 		(at 69.85 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5713,7 +6090,6 @@
 	(hierarchical_label "SDA2"
 		(shape bidirectional)
 		(at 124.46 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5722,22 +6098,9 @@
 		)
 		(uuid "3e07f721-e67a-43c8-849a-99727583cd8f")
 	)
-	(hierarchical_label "1.8V"
-		(shape passive)
-		(at 38.1 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55e105a3-dbb4-4c6a-a89c-2d7ef39d8ec5")
-	)
 	(hierarchical_label "MOTION_INT"
 		(shape input)
 		(at 170.18 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5749,7 +6112,6 @@
 	(hierarchical_label "RESET"
 		(shape output)
 		(at 171.45 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5761,7 +6123,6 @@
 	(hierarchical_label "SCLK"
 		(shape output)
 		(at 173.99 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5773,7 +6134,6 @@
 	(hierarchical_label "MOSI"
 		(shape output)
 		(at 173.99 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5785,7 +6145,6 @@
 	(hierarchical_label "INT"
 		(shape input)
 		(at 171.45 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5797,7 +6156,6 @@
 	(hierarchical_label "1.8V"
 		(shape passive)
 		(at 125.73 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5809,7 +6167,6 @@
 	(hierarchical_label "1.8V"
 		(shape passive)
 		(at 125.73 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5821,7 +6178,6 @@
 	(hierarchical_label "1.8V"
 		(shape input)
 		(at 144.78 30.48 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5829,76 +6185,6 @@
 			(justify left)
 		)
 		(uuid "eb12f9d0-ffa5-4923-b46b-a7d07da4f890")
-	)
-	(symbol
-		(lib_id "Device:Antenna_Shield")
-		(at 274.32 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08656501-b8c9-4ec0-8b33-873bc0fdbd24")
-		(property "Reference" "AE2"
-			(at 278.13 93.3449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna_Shield"
-			(at 278.13 95.8849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
-			(at 274.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna with extra pin for shielding"
-			(at 274.32 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e0a6d8a3-4cfb-4266-a070-e9c0f040e830")
-		)
-		(pin "1"
-			(uuid "315fb6f0-0d6d-4dd0-9bba-5a3dbe34e236")
-		)
-		(instances
-			(project ""
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "AE2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5967,72 +6253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 22.86 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e4bd22c-be46-4f31-b15a-100f6009c52d")
-		(property "Reference" "#PWR021"
-			(at 44.45 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e20f9183-8e25-4725-9ac4-08b2d460de9f")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 257.81 100.33 90)
 		(unit 1)
@@ -6058,7 +6278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -6128,7 +6348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 270.51 105.41 0)
 			(effects
 				(font
@@ -6506,7 +6726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 247.65 105.41 0)
 			(effects
 				(font
@@ -6619,6 +6839,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 276.86 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad9c5f2-fe9b-44e7-a8f8-78f72fbd9a8d")
+		(property "Reference" "AE2"
+			(at 280.67 93.3449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 280.67 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
+			(at 276.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 276.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95016c25-1917-43b2-83ca-fdfded79c6f9")
+		)
+		(pin "1"
+			(uuid "6591cabd-593f-4182-9ec5-ee29809cbb55")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 157.48 270)
 		(unit 1)
@@ -6680,139 +6970,6 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 66.04 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40eeaf8e-2430-4004-87fa-6d2261106d1d")
-		(property "Reference" "#PWR022"
-			(at 44.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4aa22d9-335d-4af1-9f76-47bd076b50f3")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 276.86 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "464f5bde-fb2a-4903-ab37-a928fb124f95")
-		(property "Reference" "#PWR037"
-			(at 276.86 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 276.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36056789-2853-432b-b01e-645f19d87900")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7087,6 +7244,72 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 44.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ec5ae66-b109-4149-b1d2-03a64f5eb822")
+		(property "Reference" "#PWR021"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "283af022-9a5e-4a40-a164-edf3ecca43b1")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7924,72 +8147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75319505-d592-4a40-bbdc-f3d06619d9e1")
-		(property "Reference" "#PWR057"
-			(at 27.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 27.94 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8b88e10-87dc-4e33-8d0e-78dbf8952c18")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 95.25 0)
 		(unit 1)
@@ -8085,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 267.97 100.33 0)
 			(effects
 				(font
@@ -8122,72 +8279,6 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 78.74 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86a4b10c-397f-4dba-b7c8-78e46cd3f038")
-		(property "Reference" "#PWR023"
-			(at 44.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62cb051b-949a-4cfe-aa8a-5cc9a6b91f5d")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8330,6 +8421,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RFShield_TwoPieces")
+		(at 85.09 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af9c8c3-e7d3-4b36-ac6a-a65076d64acb")
+		(property "Reference" "J7"
+			(at 104.14 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RFShield_TwoPieces"
+			(at 104.14 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-103_26.21x26.21mm"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two-piece EMI RF shielding cabinet"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "964d9250-44bc-4842-88ba-1a8fce95525d")
+		)
+		(instances
+			(project ""
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 248.92 151.13 0)
 		(mirror y)
@@ -8395,72 +8553,6 @@
 			(project ""
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 35.56 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9625fe2e-f025-4034-a964-44d65383e6f4")
-		(property "Reference" "#PWR024"
-			(at 44.45 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43ca2494-6a80-474a-930b-3f3ebdd75bf3")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8601,6 +8693,139 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7cfe873-8fd8-4b5f-8887-b8c4766ffa93")
+		(property "Reference" "#PWR037"
+			(at 279.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eaff41a-7729-4178-bc75-a83fa1295429")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ac4579-4fe0-4840-afa3-d5b6e926d8a0")
+		(property "Reference" "#PWR040"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b29b45f6-db49-4033-877c-c797f7fdcece")
+		)
+		(instances
+			(project ""
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9314,7 +9539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 43.18 0)
+		(at 29.21 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9323,7 +9548,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0450982-4468-4385-adae-fc9e4abe705b")
 		(property "Reference" "#PWR056"
-			(at 27.94 49.53 0)
+			(at 29.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 48.26 0)
+			(at 29.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 43.18 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 43.18 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,7 +9583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 43.18 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9943,7 @@
 	)
 	(symbol
 		(lib_id "Connector:RJ45_Shielded")
-		(at 27.94 30.48 0)
+		(at 29.21 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9727,7 +9952,7 @@
 		(fields_autoplaced yes)
 		(uuid "e31148f9-15bc-4b3b-bde6-007a8bf508dc")
 		(property "Reference" "J2"
-			(at 27.94 12.7 0)
+			(at 29.21 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,15 +9960,15 @@
 			)
 		)
 		(property "Value" "RJ45_Shielded"
-			(at 27.94 15.24 0)
+			(at 29.21 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
-			(at 27.94 29.845 90)
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X"
+			(at 29.21 36.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +9977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 29.845 90)
+			(at 29.21 36.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9986,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), Shielded"
-			(at 27.94 30.48 0)
+			(at 29.21 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +10124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 260.35 105.41 0)
 			(effects
 				(font
@@ -10170,7 +10395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
 			(at 245.11 100.33 0)
 			(effects
 				(font
@@ -10207,95 +10432,6 @@
 			(project ""
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:RJ45_Shielded")
-		(at 27.94 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8adc189-d77c-4a70-8490-5a0c0af26a36")
-		(property "Reference" "J3"
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RJ45_Shielded"
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
-			(at 27.94 73.025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 73.025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), Shielded"
-			(at 27.94 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1a54a3d-7e5a-4265-ad8f-7e7b4945b6d8")
-		)
-		(pin "1"
-			(uuid "a3c20fc1-0ea9-4288-9c7d-e5cf7a7f5b2d")
-		)
-		(pin "8"
-			(uuid "8c3e02d9-0630-4b48-b839-91b7e46eb74d")
-		)
-		(pin "6"
-			(uuid "4284b9a3-ffae-4303-8f77-fcd3f077cb25")
-		)
-		(pin "7"
-			(uuid "3d173194-74ab-4d8a-9e39-1b0b78321120")
-		)
-		(pin "5"
-			(uuid "0edb692e-7825-4d6b-8e96-c1b99a22d5dd")
-		)
-		(pin "SH"
-			(uuid "91e92373-ec3f-48bb-b3e6-b41a4076385b")
-		)
-		(pin "3"
-			(uuid "a98fcaec-02a2-400a-9dd9-64930e6895f6")
-		)
-		(pin "4"
-			(uuid "40e8a429-df8e-4e17-bb73-3a2ed6bafc8b")
-		)
-		(instances
-			(project "OpenBikeComputer"
-				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
-					(reference "J3")
 					(unit 1)
 				)
 			)
