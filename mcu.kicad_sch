@@ -4608,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 148.59) (xy 176.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfe0add-0120-4102-8548-d40a2e797498")
+	)
+	(wire
+		(pts
 			(xy 232.41 148.59) (xy 243.84 148.59)
 		)
 		(stroke
@@ -6064,6 +6074,17 @@
 			(justify right)
 		)
 		(uuid "22f0f6ee-6d54-43e1-879a-b302215d6105")
+	)
+	(hierarchical_label "DISPLAY_SHDN"
+		(shape output)
+		(at 173.99 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "235fcca2-8910-4e0a-8e29-700cf3e73968")
 	)
 	(hierarchical_label "SDA1"
 		(shape bidirectional)

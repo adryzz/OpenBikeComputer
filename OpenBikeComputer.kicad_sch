@@ -59,6 +59,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 92.71) (xy 143.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225a9b0d-6988-421a-8008-0c493036151f")
+	)
+	(wire
+		(pts
 			(xy 83.82 92.71) (xy 83.82 99.06)
 		)
 		(stroke
@@ -435,6 +445,16 @@
 			)
 			(uuid "76da57c3-4f28-443d-bf40-fa4e8c69eb51")
 		)
+		(pin "DISPLAY_SHDN" input
+			(at 143.51 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "401b9197-a3de-4671-90cc-5325b84c9c30")
+		)
 		(instances
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
@@ -660,6 +680,16 @@
 				(justify right)
 			)
 			(uuid "baad51d4-daf7-47a9-85e1-5a280a2b6e6a")
+		)
+		(pin "DISPLAY_SHDN" output
+			(at 143.51 92.71 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d6c9c82-6034-484c-8e45-1c02b80fb51a")
 		)
 		(instances
 			(project "OpenBikeComputer"
