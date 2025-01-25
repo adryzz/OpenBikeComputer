@@ -6509,7 +6509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CRYSTAL-SMD_L3.2-W1.5-1"
 			(at 160.02 52.07 0)
 			(effects
 				(font
