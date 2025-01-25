@@ -2668,12 +2668,6 @@
 		(uuid "0298f3ea-af2e-4bb2-913b-210ec5a1407e")
 	)
 	(junction
-		(at 148.59 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c395092-5278-40bd-96a3-6b6c93150f3e")
-	)
-	(junction
 		(at 172.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3146,16 +3140,6 @@
 			(type default)
 		)
 		(uuid "56e2dcb1-4f25-449b-ae09-45b26c4e8e11")
-	)
-	(wire
-		(pts
-			(xy 148.59 80.01) (xy 149.86 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602b24a1-da3f-4027-9612-ef92d9e5dd0f")
 	)
 	(wire
 		(pts
@@ -4030,18 +4014,6 @@
 			(justify left)
 		)
 		(uuid "df20a66b-3a87-47c0-89e2-ea66b9f2b5ca")
-	)
-	(hierarchical_label "VUSBOUT"
-		(shape passive)
-		(at 149.86 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f992dd79-856b-4120-8e50-778109386996")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -5131,8 +5103,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "60489190-c221-42a7-93ca-3e32e8a7f5cd")
 		(property "Reference" "#PWR09"
@@ -5333,8 +5305,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6634ed10-51c4-4bf1-b694-512339b4a4c5")
 		(property "Reference" "C4"

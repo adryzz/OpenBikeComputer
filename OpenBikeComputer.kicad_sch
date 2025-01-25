@@ -29,16 +29,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 63.5) (xy 111.76 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05dd1a84-3bb5-4d89-a3fe-d386094e0541")
-	)
-	(wire
-		(pts
 			(xy 140.97 92.71) (xy 140.97 99.06)
 		)
 		(stroke
@@ -357,16 +347,6 @@
 			)
 			(uuid "4de7bbc5-1bf3-41fa-9039-7aa370daa1f5")
 		)
-		(pin "VUSBOUT" passive
-			(at 96.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5eb7d779-95d2-402e-adea-1eb207131185")
-		)
 		(instances
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d"
@@ -570,16 +550,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "VBUS" passive
-			(at 111.76 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3bfeb9b0-cb7b-40bc-9d8e-0ecf46c856fc")
 		)
 		(pin "1.8V" passive
 			(at 111.76 66.04 180)
