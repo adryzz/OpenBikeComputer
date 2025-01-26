@@ -7692,7 +7692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 181.61 35.56 0)
 			(effects
 				(font
@@ -7972,7 +7972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 170.18 35.56 0)
 			(effects
 				(font
@@ -8042,7 +8042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -8090,8 +8090,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6ec5a080-fd50-47d1-a093-27e4d052c6ca")
 		(property "Reference" "#PWR017"
@@ -8841,8 +8841,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a9ce1066-c558-4a0e-b931-1b2611cff9c9")
 		(property "Reference" "#PWR018"
@@ -9681,8 +9681,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d1f2bdb7-d576-4ee0-b588-3c1e15257c62")
 		(property "Reference" "#PWR019"
 			(at 140.97 78.74 0)
@@ -10315,8 +10315,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "f37eaa25-495b-4732-81f7-6f96c4f91e6d")
 		(property "Reference" "#PWR020"
 			(at 153.67 78.74 0)
@@ -10540,7 +10540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 194.31 35.56 0)
 			(effects
 				(font
@@ -10610,7 +10610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 144.78 35.56 0)
 			(effects
 				(font
