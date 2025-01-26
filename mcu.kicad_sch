@@ -8452,7 +8452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-103_26.21x26.21mm"
+		(property "Footprint" "RF_Shielding:Wuerth_36103205_20x20mm"
 			(at 85.09 57.15 0)
 			(effects
 				(font
