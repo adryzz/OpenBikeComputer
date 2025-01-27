@@ -8314,7 +8314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
 			(at 29.21 133.35 0)
 			(effects
 				(font
@@ -8382,7 +8382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
 			(at 29.21 121.92 0)
 			(effects
 				(font
@@ -9432,7 +9432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
 			(at 29.21 110.49 0)
 			(effects
 				(font
@@ -9903,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx50"
 			(at 29.21 99.06 0)
 			(effects
 				(font
