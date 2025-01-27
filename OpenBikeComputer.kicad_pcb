@@ -11637,7 +11637,7 @@
 		(path "/8ab31578-d5d6-4677-b849-7ef5be6f3fc0/8af9c8c3-e7d3-4b36-ac6a-a65076d64acb")
 		(sheetname "MCU")
 		(sheetfile "mcu.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -10.65 -7.15)
 			(end -10.65 -5.35)

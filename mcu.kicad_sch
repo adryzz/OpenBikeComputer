@@ -928,6 +928,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Antenna_Loop"
 			(pin_numbers hide)
 			(pin_names
@@ -4119,10 +4221,28 @@
 		(uuid "212bb50a-bd03-4802-a3d1-a1b3b6a7ce5a")
 	)
 	(junction
+		(at 109.22 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23810f22-8f50-4a26-830f-73acef21655e")
+	)
+	(junction
 		(at 128.27 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26f959d5-eb18-4532-b517-2316d1236b96")
+	)
+	(junction
+		(at 109.22 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f92730e-f813-42c8-9088-4c8471ac8b48")
+	)
+	(junction
+		(at 109.22 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3e0eed-8c1b-4392-9ad1-44dbb8d6363d")
 	)
 	(junction
 		(at 135.89 133.35)
@@ -4153,6 +4273,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "719402cc-00ed-4881-8737-198ed9bdeeff")
+	)
+	(junction
+		(at 109.22 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80852bcd-da57-43f3-9a55-63e88b46812a")
 	)
 	(junction
 		(at 262.89 52.07)
@@ -4314,6 +4440,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 116.84) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086596cb-b696-4cd5-a036-c83256e08bc7")
+	)
+	(wire
+		(pts
 			(xy 247.65 100.33) (xy 247.65 102.87)
 		)
 		(stroke
@@ -4331,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "0983ea58-2dd2-413b-8ced-99f62e6f9527")
+	)
+	(wire
+		(pts
+			(xy 109.22 128.27) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b91a11f-bba7-45d8-8171-79601c8a570b")
 	)
 	(wire
 		(pts
@@ -4424,7 +4570,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 133.35) (xy 135.89 133.35)
+			(xy 106.68 133.35) (xy 109.22 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4854,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 135.89 116.84)
+			(xy 106.68 116.84) (xy 109.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4884,6 +5030,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 133.35) (xy 135.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e75f4f-6183-40dc-ab0d-a29d23b03cc8")
+	)
+	(wire
+		(pts
 			(xy 262.89 49.53) (xy 262.89 52.07)
 		)
 		(stroke
@@ -4894,7 +5050,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 128.27) (xy 128.27 128.27)
+			(xy 106.68 128.27) (xy 109.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5004,6 +5160,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 111.76) (xy 128.27 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a7e275-b901-4929-9c99-bc52fb9b5dc6")
+	)
+	(wire
+		(pts
 			(xy 243.84 49.53) (xy 262.89 49.53)
 		)
 		(stroke
@@ -5054,7 +5220,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 128.27 111.76)
+			(xy 106.68 111.76) (xy 109.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6000,7 +6166,7 @@
 	)
 	(hierarchical_label "SCL1"
 		(shape output)
-		(at 124.46 116.84 180)
+		(at 106.68 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6024,7 +6190,7 @@
 	)
 	(hierarchical_label "SCL2"
 		(shape output)
-		(at 124.46 133.35 180)
+		(at 106.68 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6048,7 +6214,7 @@
 	)
 	(hierarchical_label "SDA1"
 		(shape bidirectional)
-		(at 124.46 111.76 180)
+		(at 106.68 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6072,7 +6238,7 @@
 	)
 	(hierarchical_label "SDA2"
 		(shape bidirectional)
-		(at 124.46 128.27 180)
+		(at 106.68 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6189,6 +6355,73 @@
 			(justify left)
 		)
 		(uuid "eb12f9d0-ffa5-4923-b46b-a7d07da4f890")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0644c0aa-b1a9-44f9-9540-50903234547e")
+		(property "Reference" "TP7"
+			(at 111.76 123.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 126.2379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29413a37-edbe-4e5d-bf7f-38e8503cbc36")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7875,6 +8108,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61645f21-6381-4b84-b4b4-a3cba2f8c9de")
+		(property "Reference" "TP8"
+			(at 111.76 137.9221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 135.3821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2452d5ae-6865-4f74-b503-5903b91a1dda")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 140.97 95.25 0)
 		(unit 1)
@@ -8145,6 +8445,73 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed4fad0-d598-4c6e-b884-c35e18d4b64b")
+		(property "Reference" "TP3"
+			(at 111.76 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f995f90-34a9-4f49-a1f5-b5d5d4fce07a")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8627,6 +8994,73 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 116.84 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9db4d052-d348-4d1a-91ec-f49025a8f08b")
+		(property "Reference" "TP4"
+			(at 111.76 121.4121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 118.8721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af2aa714-67ce-492b-9150-311a376170c3")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/8ab31578-d5d6-4677-b849-7ef5be6f3fc0"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

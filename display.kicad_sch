@@ -1343,6 +1343,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2208,6 +2310,12 @@
 		(uuid "4c201238-3a38-46e4-9368-443efc137c88")
 	)
 	(junction
+		(at 93.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2f5110-28c0-4ed3-a1b7-d91cdc4b3956")
+	)
+	(junction
 		(at 96.52 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2285,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 93.98 88.9)
+			(xy 93.98 105.41) (xy 93.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2535,6 +2643,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 102.87) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cded7c9c-bd38-48d2-bc24-d52a6b011cd7")
+	)
+	(wire
+		(pts
 			(xy 41.91 73.66) (xy 31.75 73.66)
 		)
 		(stroke
@@ -2739,7 +2857,7 @@
 	)
 	(hierarchical_label "DISPLAY_SHDN"
 		(shape input)
-		(at 93.98 91.44 270)
+		(at 93.98 105.41 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4122,6 +4240,73 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/67feebfd-a6ea-41ab-b461-383184077ed3"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d37fce-4b39-472f-814d-e14f54bdc5e4")
+		(property "Reference" "TP9"
+			(at 99.06 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 99.06 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ed829fb-3959-4671-a2c8-cd7ab0d217ec")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/67feebfd-a6ea-41ab-b461-383184077ed3"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

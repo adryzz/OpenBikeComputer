@@ -5,6 +5,108 @@
 	(uuid "bcdb698a-4c0b-4289-af07-08fa699a6607")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -2692,6 +2794,12 @@
 		(uuid "20113590-1643-45e9-9afe-4961c561300f")
 	)
 	(junction
+		(at 67.31 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22cd9104-8105-4f7b-9442-e699a18686ca")
+	)
+	(junction
 		(at 171.45 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2716,6 +2824,18 @@
 		(uuid "5c8a1042-3a15-4aad-919c-98a4290e8a61")
 	)
 	(junction
+		(at 67.31 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6541d5a3-15fc-49eb-a281-6fce68f43052")
+	)
+	(junction
+		(at 196.85 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739f49f3-9da0-4ea7-bc45-a8da02afce57")
+	)
+	(junction
 		(at 139.7 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2726,6 +2846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ca241aa-b603-4c4d-8521-d152f845c4c3")
+	)
+	(junction
+		(at 196.85 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2f0ec12-e4f5-4b31-80f6-5ab9f911828f")
 	)
 	(junction
 		(at 182.88 72.39)
@@ -2833,6 +2959,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 104.14) (xy 204.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c04c305-30c8-4b55-95e2-3fe3a52416c9")
+	)
+	(wire
+		(pts
 			(xy 85.09 34.29) (xy 85.09 36.83)
 		)
 		(stroke
@@ -2913,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 80.01 121.92)
+			(xy 64.77 121.92) (xy 67.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2963,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 175.26 116.84)
+			(xy 168.91 116.84) (xy 196.85 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3103,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 175.26 104.14)
+			(xy 171.45 104.14) (xy 196.85 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3193,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 119.38) (xy 80.01 119.38)
+			(xy 64.77 119.38) (xy 67.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3263,6 +3399,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 119.38) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c38bbf0-abb4-4288-a73a-16f6b2decc79")
+	)
+	(wire
+		(pts
 			(xy 80.01 111.76) (xy 50.8 111.76)
 		)
 		(stroke
@@ -3300,6 +3446,16 @@
 			(type default)
 		)
 		(uuid "96148043-bfc3-403a-93ea-dd24ff742d5c")
+	)
+	(wire
+		(pts
+			(xy 67.31 121.92) (xy 80.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985385e5-de0d-4fdd-9ad1-e71128b4686c")
 	)
 	(wire
 		(pts
@@ -3450,6 +3606,16 @@
 			(type default)
 		)
 		(uuid "e1f46eec-2a86-477c-8698-8f04733f7722")
+	)
+	(wire
+		(pts
+			(xy 196.85 116.84) (xy 204.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b112ae-c79f-4a79-b241-4f5c00fbe05c")
 	)
 	(wire
 		(pts
@@ -3921,7 +4087,7 @@
 	)
 	(hierarchical_label "RESET"
 		(shape input)
-		(at 74.93 119.38 180)
+		(at 64.77 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3969,7 +4135,7 @@
 	)
 	(hierarchical_label "INT"
 		(shape output)
-		(at 74.93 121.92 180)
+		(at 64.77 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3981,7 +4147,7 @@
 	)
 	(hierarchical_label "VOUT2"
 		(shape passive)
-		(at 175.26 116.84 0)
+		(at 204.47 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4005,7 +4171,7 @@
 	)
 	(hierarchical_label "VOUT1"
 		(shape passive)
-		(at 175.26 104.14 0)
+		(at 204.47 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4329,6 +4495,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18b57381-92d5-46cc-bfc2-93adaca050cb")
+		(property "Reference" "TP5"
+			(at 69.85 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 117.3479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799e6548-90b7-44c0-86f4-e9e0f303b9e6")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 72.39 0)
 		(unit 1)
@@ -4389,6 +4622,73 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 121.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2512826c-c653-4907-9235-3d342c24cf16")
+		(property "Reference" "TP6"
+			(at 69.85 126.4921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 123.9521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b07b4da6-9a9e-4e14-8514-e20056f74b4a")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5431,6 +5731,73 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f22f063-fb6d-475b-9c5e-b37bb85241d8")
+		(property "Reference" "TP2"
+			(at 199.39 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 199.39 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a97218e5-97f0-4b1f-b16e-ff94cff30193")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6836,6 +7203,73 @@
 			(project "OpenBikeComputer"
 				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 196.85 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e578f783-3185-44c2-b7a2-e98a2a5bf694")
+		(property "Reference" "TP1"
+			(at 199.39 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 199.39 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2d38df0-1d46-45bf-97b9-e2b84b3bb423")
+		)
+		(instances
+			(project "OpenBikeComputer"
+				(path "/110ea5a2-03d6-426d-b79f-fcb4ea6cee9d/37638529-c791-4545-86be-d41ede14aac5"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
