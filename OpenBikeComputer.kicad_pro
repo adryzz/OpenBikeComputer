@@ -530,7 +530,7 @@
       "plot": "/tmp/pcb/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "OpenBikeComputer.step",
+      "step": "../../../../../tmp/OpenBikeComputer.step",
       "svg": "",
       "vrml": ""
     },
