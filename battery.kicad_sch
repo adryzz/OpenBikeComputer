@@ -2151,7 +2151,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Library:TPS22860")
 		(lib_id "Library:TPS22860")
 		(at 102.87 52.07 0)
 		(unit 1)
