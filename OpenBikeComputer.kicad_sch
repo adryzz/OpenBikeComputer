@@ -5,28 +5,6 @@
 	(uuid "110ea5a2-03d6-426d-b79f-fcb4ea6cee9d")
 	(paper "A4")
 	(lib_symbols)
-	(junction
-		(at 106.68 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "713946b1-3efb-45ed-adc6-558597f6175d")
-	)
-	(junction
-		(at 109.22 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "915ff076-959a-4761-9a7a-b36763ce8ad1")
-	)
-	(wire
-		(pts
-			(xy 106.68 101.6) (xy 106.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050b2de8-834a-47fb-b6d8-566f9b4d27fb")
-	)
 	(wire
 		(pts
 			(xy 140.97 92.71) (xy 140.97 99.06)
@@ -69,26 +47,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 111.76 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "363b65a1-558a-4e5d-9601-fb311399336d")
-	)
-	(wire
-		(pts
-			(xy 109.22 66.04) (xy 111.76 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca6b519-6c1d-4dfb-9d86-d610bcbc455d")
-	)
-	(wire
-		(pts
 			(xy 96.52 74.93) (xy 111.76 74.93)
 		)
 		(stroke
@@ -106,16 +64,6 @@
 			(type default)
 		)
 		(uuid "6c966296-b4b7-453f-aa56-9aa54f185bb6")
-	)
-	(wire
-		(pts
-			(xy 96.52 66.04) (xy 106.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7783fcd4-d50a-4fc9-9fa3-591db802b4da")
 	)
 	(wire
 		(pts
@@ -146,36 +94,6 @@
 			(type default)
 		)
 		(uuid "9be88f9b-8b37-4b56-bf1d-af8712b4695b")
-	)
-	(wire
-		(pts
-			(xy 106.68 66.04) (xy 109.22 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc467ff8-6f5c-4124-af04-64005cf9ab3d")
-	)
-	(wire
-		(pts
-			(xy 109.22 66.04) (xy 109.22 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccadf76d-0746-4f05-b31b-37eae530493b")
-	)
-	(wire
-		(pts
-			(xy 111.76 101.6) (xy 106.68 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d70d5306-e887-4b7f-8919-f0bddcd186f5")
 	)
 	(wire
 		(pts
@@ -276,16 +194,6 @@
 				(justify right)
 			)
 			(uuid "cfd4bc67-3bc9-4e0f-ad9b-c3f1eb3d6d19")
-		)
-		(pin "VOUT1" passive
-			(at 96.52 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f94b76f4-3464-49ef-8791-1fb211fd83bd")
 		)
 		(pin "NTC" passive
 			(at 83.82 92.71 270)
@@ -473,16 +381,6 @@
 				(justify left top)
 			)
 		)
-		(pin "1.8V" passive
-			(at 111.76 46.99 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "386101e2-a4a0-4bbc-87c0-41e95fd58a80")
-		)
 		(pin "MOTION_INT" output
 			(at 137.16 53.34 270)
 			(effects
@@ -550,16 +448,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "1.8V" passive
-			(at 111.76 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4c247b3d-eb11-45c7-9629-973f907d8c9f")
 		)
 		(pin "SCLK" output
 			(at 138.43 92.71 270)
