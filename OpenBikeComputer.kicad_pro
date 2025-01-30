@@ -527,10 +527,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/tmp/pcb/",
+      "plot": "/Users/lena/Desktop/pcb",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../tmp/OpenBikeComputer.step",
+      "step": "../Desktop/OpenBikeComputer.step",
       "svg": "",
       "vrml": ""
     },
