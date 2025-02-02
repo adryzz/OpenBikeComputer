@@ -5603,6 +5603,28 @@
 			)
 		)
 	)
+	(global_label "GPIO2"
+		(shape bidirectional)
+		(at 176.53 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14a4e97e-6834-4da7-bf91-247c3bc95723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.7487 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_MOSI"
 		(shape input)
 		(at 123.19 171.45 0)
@@ -5687,28 +5709,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape bidirectional)
-		(at 176.53 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28ece798-7a3a-4c0f-bc67-309e2b511af8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7487 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5836,28 +5836,6 @@
 		(uuid "362ef074-ff4b-4dda-961a-f064d0f04b34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.6559 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUT4"
-		(shape input)
-		(at 176.53 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f8628e5-b598-449d-97a9-9c2c9d2505ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7672 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,6 +6061,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUT4"
+		(shape input)
+		(at 176.53 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "773d410a-cdb5-445c-8e2c-b656f4add987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7672 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
