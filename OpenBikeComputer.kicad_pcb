@@ -952,6 +952,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1f2f40c8-42c7-4037-a0b6-59304ddc9d42")
 		(at 186 78.5 180)
@@ -4614,6 +4615,7 @@
 		)
 	)
 	(footprint "Connector_Card:microSD_HC_Hirose_DM3D-SF"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "39aa562c-89e0-4e2e-a870-5dc4386cd2a7")
 		(at 156.8 103.32 -90)
@@ -15176,6 +15178,7 @@
 		)
 	)
 	(footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "dbe6f19d-57d6-4b1b-832d-47c32ea75300")
 		(at 157.85 80 90)
