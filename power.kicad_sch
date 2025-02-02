@@ -4444,7 +4444,6 @@
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 64.77 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4456,7 +4455,6 @@
 	(hierarchical_label "NTC"
 		(shape passive)
 		(at 153.67 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4468,7 +4466,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 74.93 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4480,7 +4477,6 @@
 	(hierarchical_label "INT"
 		(shape output)
 		(at 64.77 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4492,7 +4488,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 74.93 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

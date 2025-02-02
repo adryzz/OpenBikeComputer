@@ -1413,7 +1413,6 @@
 	(hierarchical_label "NTC"
 		(shape passive)
 		(at 78.74 36.83 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
